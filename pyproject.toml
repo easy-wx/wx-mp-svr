@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "wx-mp-svr"
+version = "0.1.0"
+authors = [
+    { name = "panzhongxian", email = "panzhongxian0532@gmail.com" },
+]
+description = "Wechat Official Accounts Callback Server Framework"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Flask>=3.0.0",
+    "wx-crypt>=0.0.2",
+]
+[project.urls]
+Homepage = "https://github.com/easy-wx/wx-mp-svr"
+Issues = "https://github.com/easy-wx/wx-mp-svr/issues"
