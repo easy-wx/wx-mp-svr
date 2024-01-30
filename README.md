@@ -10,7 +10,7 @@
 
 使用 demo/demo.py 中的示例，可以直接将实现一个 ECHO 功能的公众号服务。
 
-![demo](images/demo.png)
+<img src="images/demo.png" alt="demo" style="max-width: 500px;" />
 
 这个 Echo 只为简单展示，而你可以基于该框架，实现更多的功能逻辑，甚至像我一样接入大模型。
 
